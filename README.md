@@ -5,7 +5,7 @@ If `moduleNameMapper` object has `env` entry in jest config then the content of 
 Reproduction steps:
 1) run `yarn` to install dependencies
 2) run `yarn test` - confirm that the test passes
-3) uncomment 4th line in `jest.config.js`
+3) [uncomment 4th line](https://github.com/v1adko/react-modal-env-testing-issue/blob/master/jest.config.js#L4) in `jest.config.js`
 4) run `yarn test` - confirm that the test fails, no modal content is present
 
 Related [GH issue](https://github.com/reactjs/react-modal/issues/900)
